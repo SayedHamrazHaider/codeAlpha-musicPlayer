@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="player">
+        <h2 id="song-title">Song Name</h2>
+        <audio id="audio-player" src="audio/technology-278512.mp3"></audio>
+        <audio id="audio-player" src="audio/technology-271272.mp3"></audio>
+        <audio id="audio-player" src="audio/introduction-to-technology-electronica-281086.mp3"></audio>
+        <div class="controls">
+            <button onclick="prevSong()">⏮️</button>
+            <button onclick="togglePlayPause()">▶️</button>
+            <button onclick="nextSong()">⏭️</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
